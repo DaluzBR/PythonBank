@@ -1,0 +1,16 @@
+CPF 			NOME				DATA_NASCIMENTO		ENDEREÇO
+------------------------------------------------------------------------------------------------------------------
+17409488239	Cláudio André Mergen Taffarel		08-04-1966	Rua Nova, 28, Osasco, São Paulo/SP
+45517115276	Jorge de Amorim Campos			17-08-1964	Rua Velha, 35, Osasco, São Paulo/SP
+76142322160	Ricardo Roberto Barreto da Rocha	11-09-1962	Rua das Flores, 21, Osasco, São Paulo/SP
+68576189259	Ronaldo Rodrigues de Jesus		19-06-1965	Rua da Paz, 08, Osasco, São Paulo/SP
+79543123306	Mauro da Silva Gomes			12-01-1968	Avenida Luiz XIV, 05, Osasco, São Paulo/SP
+41138742716	Cláudio Ibraim Vaz Leal			04-04-1964	Rua Nova, 28, Osasco, São Paulo/SP
+79319865043	José Roberto Gama de Oliveira		16-02-1964	Rua Bahia, 45, Osasco, São Paulo/SP
+28602486502	Carlos Caetano Bledorn Verri		31-10-1963	Rua PortugAl, 56, Osasco, São Paulo/SP
+09006138908	Crizam César de Oliveira Filho		17-06-1967	Rua Canindé, 30, Osasco, São Paulo/SP
+34460661870	Raí Souza Vieira de Oliveira		15-05-1965	Rua Padre José, 45, Osasco, São Paulo/SP
+12345678909	Romário de Souza Faria			19-01-1966	Rua São João, 14, Osasco, São Paulo/SP
+
+# Estes são apenas dados usados para fins de teste.
+# Os CPFs foram gerados aleatoriamente.
