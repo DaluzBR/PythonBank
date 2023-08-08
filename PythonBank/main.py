@@ -175,7 +175,7 @@ def operacao_criar_conta(agencia_numero, usuarios, contas):
     
     existe_usuario = filtrar_usuario(cpf, usuarios)
     if existe_usuario:
-        conta_numero = f"{random.randint(10000,99999)}-{random.randint(0,10)}"
+        conta_numero = f"{random.randint(10000,99999)}-{random.randint(0,9)}"
         contas.append({
             "agencia_numero": agencia_numero,
             "conta_numero": conta_numero,
