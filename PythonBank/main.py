@@ -30,11 +30,11 @@ Operação: """
 
     # Loop principal do programa.
     while True:
-        opcao = int(input(menu_main))
+        opcao = input(menu_main)
 
-        if opcao == 1:
+        if opcao == '1':
             saldo, extrato = operacao_deposito(saldo, extrato)
-        elif opcao == 2:
+        elif opcao == '2':
             saldo, extrato, saques_numero_por_dia = operacao_saque(
                 saldo=saldo,
                 extrato=extrato,
@@ -42,17 +42,17 @@ Operação: """
                 saques_limite_por_dia=SAQUES_LIMITE_POR_DIA,
                 saques_limite_valor=SAQUES_LIMITE_VALOR
             )
-        elif opcao == 3:
+        elif opcao == '3':
             operacao_extrato(saldo, extrato=extrato)
-        elif opcao == 4:
+        elif opcao == '4':
             operacao_criar_conta(agencia_numero, usuarios, contas)
-        elif opcao == 5:
+        elif opcao == '5':
             operacao_listar_contas(contas)
-        elif opcao == 6:
+        elif opcao == '6':
             operacao_criar_usuario(usuarios)
-        elif opcao == 7:
+        elif opcao == '7':
             operacao_listar_usuarios(usuarios)
-        elif opcao == 0:
+        elif opcao == '0':
             operacao_sair()
             break
         else:
